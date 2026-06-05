@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">LocTReel</string>
+
+    <!-- Clé Google Maps — remplacer par votre clé API -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        VOTRE_CLE_GOOGLE_MAPS_ICI
+    </string>
+
+    <!-- Labels interface -->
+    <string name="label_latitude_default">Latitude : —</string>
+    <string name="label_longitude_default">Longitude : —</string>
+    <string name="btn_map">Afficher la carte</string>
+
+    <!-- Messages GPS -->
+    <string name="provider_enabled">Le fournisseur %s est maintenant actif</string>
+    <string name="provider_disabled">Le fournisseur %s est maintenant inactif</string>
+    <string name="provider_new_status">Le fournisseur %1$s a un nouveau statut : %2$s</string>
+    <string name="new_location">Lat=%1$s  Lon=%2$s  Alt=%3$s  Précision=%4$s m</string>
+
+    <!-- Messages réseau -->
+    <string name="network_error">Erreur réseau : %s</string>
+    <string name="permission_denied">Permission de localisation refusée</string>
+
+    <!-- Titre des marqueurs sur la carte -->
+    <string name="marker_title">Position enregistrée</string>
+
+</resources>

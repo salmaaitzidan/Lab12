@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color background
+color primary
+color primary_dark
+color text_primary
+color text_secondary
+color white
+id btnMap
+id map
+id tvLat
+id tvLon
+layout activity_main
+layout activity_maps
+string app_name
+string btn_map
+string google_maps_key
+string label_latitude_default
+string label_longitude_default
+string marker_title
+string network_error
+string new_location
+string permission_denied
+string provider_disabled
+string provider_enabled
+string provider_new_status
+style AppTheme

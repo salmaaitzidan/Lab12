@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.localisation.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "com.example.localisation.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.localisation.app-debug-34:/layout_activity_maps.xml.flat",
+        "source": "com.example.localisation.app-main-36:/layout/activity_maps.xml"
+    }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF6D00</color>
+    <color name="background">#FFF8F8</color>
+    <color name="primary">#E53935</color>
+    <color name="primary_dark">#B71C1C</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">LocTReel</string>
+    <string name="btn_map">Afficher la carte</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        VOTRE_CLE_GOOGLE_MAPS_ICI
+    </string>
+    <string name="label_latitude_default">Latitude : —</string>
+    <string name="label_longitude_default">Longitude : —</string>
+    <string name="marker_title">Position enregistrée</string>
+    <string name="network_error">Erreur réseau : %s</string>
+    <string name="new_location">Lat=%1$s  Lon=%2$s  Alt=%3$s  Précision=%4$s m</string>
+    <string name="permission_denied">Permission de localisation refusée</string>
+    <string name="provider_disabled">Le fournisseur %s est maintenant inactif</string>
+    <string name="provider_enabled">Le fournisseur %s est maintenant actif</string>
+    <string name="provider_new_status">Le fournisseur %1$s a un nouveau statut : %2$s</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+</resources>
