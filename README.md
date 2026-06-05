@@ -71,37 +71,9 @@ localisation-gps/
    private static $PASSWORD = '';
    ```
 
-### 3. Application Android
 
-1. Ouvrir le dossier `android/` dans Android Studio
-2. **Configurer l'IP du serveur** dans `Config.java` :
-   ```java
-   private static final String SERVER_BASE_URL = "http://VOTRE_IP/localisation";
-   ```
-   Trouver l'IP du PC : `ipconfig` (Windows) ou `ip a` (Linux)
 
-3. **Ajouter la clé Google Maps** dans `res/values/strings.xml` :
-   ```xml
-   <string name="google_maps_key">VOTRE_CLE_ICI</string>
-   ```
 
-4. Synchroniser Gradle → Build → Run
-
----
-
-## Personnalisation
-
-Tous les paramètres modifiables sont centralisés :
-
-| Fichier | Ce qu'on peut changer |
-|---|---|
-| `Config.java` | URL serveur, intervalle GPS, distance minimale |
-| `res/values/strings.xml` | Tous les textes affichés |
-| `res/values/colors.xml` | Couleurs de l'interface |
-| `res/values/styles.xml` | Thème général |
-| `connexion/Connexion.php` | Credentials base de données |
-
----
 
 ## Test rapide
 
