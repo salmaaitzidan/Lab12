@@ -2,6 +2,7 @@
 
 Application Android qui enregistre la position GPS de l'appareil et l'affiche sur une carte Google Maps via une API PHP.
 
+Salma AIT ZIDAN
 ---
 
 ## Structure du projet
